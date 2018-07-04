@@ -1,0 +1,124 @@
+/*type selector*/
+
+h1 {
+    letter-spacing: 1.5em;
+    text-align: center;
+
+}
+
+#id-ko {
+	color: red;
+
+}
+
+/*class selector*/
+
+.middle {
+	font-size: 2em;
+
+}
+
+/*attribute selector*/
+
+a[target]{
+	text-align: none;
+
+}
+
+/*adjacent sibling selectors*/
+
+div + h2{
+	background-color: white;
+
+}
+
+
+h2 + p {
+
+	background-color: white;
+}
+
+/*general sibling selectors*/
+
+#general ~ a {
+
+	font-size: 5em;
+
+}
+
+#ex > p {
+	text-align: center;
+	color: green;
+}
+
+/*descendant selectors*/
+
+ul li {
+
+	letter-spacing: 3em;
+	color: blue;
+}
+
+
+/*pseudo link*/
+
+a:link {
+
+	color: red;
+}
+
+
+/*pseudo visited*/
+
+a:visited {
+
+	color: white
+}
+
+input:focus {
+	background-color:  yellow;
+
+}
+
+.square {
+	height: 100px;
+	width: 100px;
+	background-color: grey;
+
+}
+
+.square:hover {
+	background-color: yellow;
+
+}
+
+button{	
+	width: 100px;
+	height: 50px;
+	background-color: red;
+}	
+
+button:active {
+
+	background-color: blue;
+	color: white;
+
+}
+
+h1, .square, #ex {
+	color:green;
+
+}
+
+
+h3 {
+  color: orange;
+
+
+}
+
+
+#spec {
+	color: green;
+
+}
